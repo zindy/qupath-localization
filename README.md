@@ -1,5 +1,11 @@
 # qupath-localization
-QuPath 0.6.0 in your own language
+QuPath in your own language
+
+## Compatibility
+
+Most resource files were generated for QuPath 0.6.0. The Chinese resource file currently includes all core GUI keys through QuPath 0.7.0.
+
+Note: the tested official QuPath 0.7.0 macOS arm64 package exposes only English in the language drop-down because its bundled runtime omits the `jdk.localedata` module. This is separate from the resource-file compatibility.
 
 Download any of the resource files in gui-localization folder and drag and drop them into the QuPath window. Then apply the new language by selecting it in the drop-down menu in Preferences -> Language & Regions -> User-interface.
 
